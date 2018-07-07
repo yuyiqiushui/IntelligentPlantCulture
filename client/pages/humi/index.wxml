@@ -1,0 +1,35 @@
+<!--index.wxml-->
+<view class="container">
+    <image class="lightImg" src='{{src}}'></image>
+    <view>{{timeSet}}</view>
+    <view>{{inputValue}}</view>
+    <view class="section">
+        <view class="flex-wrp flexRow" style="flex-direction:row;">
+            <view class="flex-wrp" style="flex-direction:row;">
+                <view class="flex-item "><input id="input1" class="weui-input" style="border:{{border}}" type="number" value='{{ValueNum1}}' maxlength='5' placeholder-style="{{color}}" bindfocus='bindFocusInput' bindinput='bindKeyInput' placeholder="{{startTime}}" /></view>
+                <view class="flex-item flex2"><input id="input2" class="weui-input" style="border:{{border}}" type="number" value="{{ValueNum2}}" maxlength='5' placeholder-style="{{color}}" bindinput='bindKeyInput' placeholder="{{endTime}}" /></view>
+            </view>
+        </view>
+
+
+        <view class="flex-wrp flexRow" style="flex-direction:row;">
+            <view class="flex-wrp" style="flex-direction:row;">
+                <view class="flex-item "><input id="input3" class="weui-input" style="border:{{border}}" type="number" value="{{ValueNum3}}" maxlength='5' placeholder-style="{{color}}" bindinput='bindKeyInput' placeholder="{{startTime}}" /></view>
+                <view class="flex-item flex2"><input id="input4" class="weui-input" style="border:{{border}}" type="number" value="{{ValueNum4}}" maxlength='5' placeholder-style="{{color}}" bindinput='bindKeyInput' placeholder="{{endTime}}" /></view>
+            </view>
+        </view>
+
+
+        <view class="flex-wrp flexRow" style="flex-direction:row;">
+            <view class="flex-wrp" style="flex-direction:row;">
+                <view class="flex-item "><input id="input5" class="weui-input" style="border:{{border}}" type="number" value="{{ValueNum5}}" maxlength='5' placeholder-style="{{color}}" bindinput='bindKeyInput' placeholder="{{startTime}}" /></view>
+                <view class="flex-item flex2"><input id="input6" class="weui-input" style="border:{{border}}" type="number" value="{{ValueNum6}}" maxlength='5' placeholder-style="{{color}}" bindinput='bindKeyInput' placeholder="{{endTime}}" /></view>
+            </view>
+        </view>
+
+        <view class="flex-wrp" id="flex-wrp" style="flex-direction:row;">
+            <view class='home'><button bindtap='bindHome'>{{home}}</button></view>
+            <view class="save"><button bindtap='bindSave'>{{save}}</button></view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,10 @@
+<view class="container">
+    <radio-group >
+        <radio class="chart-with-img" wx:for="{{selVaries}}" wx:for-item="selVarie" bindtap='radioTap' data-selVarie="{{selVarie}}" wx:key="{{selVarie.id}}" checked="{{selVarie.checked}}">
+        <text class='text'>{{selVarie.name}}</text>
+    
+    </radio>
+  </radio-group>
+
+  <button bindtap='submitTap'>{{submitTap}}</button>
+</view>

@@ -1,0 +1,62 @@
+{
+  "pages":[
+    "pages/index/index",
+    
+    "pages/bar/index",
+    "pages/measureText/index",
+    "pages/curve/index",
+    "pages/curve/lightCurve/index",
+    "pages/curve/tempCurve/index",
+    "pages/curve/humiCurve/index",
+    "pages/curve/fluidCurve/index",
+    "pages/scatter/index",
+    "pages/help/index",
+    "pages/humi/index",
+    "pages/temp/index",
+    "pages/fluid/index",
+    "pages/pie/index",
+    "pages/video/index",
+    "pages/varies/index",
+    "pages/companyinfo/index",
+    "pages/openclose/index",
+    "pages/light/index",
+    "pages/login/login",
+    "pages/graph/index",
+    "pages/boxplot/index",
+    "pages/parallel/index",
+    "pages/sankey/index",
+    "pages/themeRiver/index",
+    "pages/lazyLoad/index",
+    "pages/multiCharts/index",
+    "pages/move/index",
+    "pages/saveCanvas/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "backgroundColor": "#eee",
+    "navigationBarBackgroundColor": "#eee",
+    "navigationBarTitleText": "智能植物栽培系统",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+        {
+            "pagePath": "pages/index/index",
+            "text": "主页",
+            "iconPath": "images/home.png",
+            "selectedIconPath": "images/home_blue.png"
+        },{
+            "pagePath": "pages/login/login",
+            "text": "设备管理",
+            "iconPath": "images/device.png",
+            "selectedIconPath": "images/device_blue.png"
+        },
+        {
+            "pagePath": "pages/login/login",
+            "text": "个人中心",
+            "iconPath": "images/my.png",
+            "selectedIconPath": "images/my_blue.png"
+        }
+    ]
+}
+}

@@ -1,0 +1,32 @@
+.panel {
+  display: block;
+  margin-top: 10px;
+}
+
+.panel .chart-with-img {
+  display: inline-block;
+  width: 25%;
+  margin: 10px 5px;
+  padding: 20px 5px;
+  text-align: center;
+  border: 1px solid #eee;
+}
+
+.chart-without-img button {
+  text-align: left;
+}
+.chart-with-title{
+  width: 100%;
+  margin: 10px 5px;
+  padding: 20px 5px;
+  text-align: center;
+  border: 1px solid #eee;
+}
+.chart-with-infos{
+    display: inline-block;
+  width: 25%;
+  margin: 10px 5px;
+  padding: 20px 5px;
+  text-align: center;
+  border: 1px solid #eee;
+}

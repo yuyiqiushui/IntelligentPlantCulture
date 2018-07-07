@@ -1,0 +1,13 @@
+
+.chart-with-img {
+  display: inline-block;
+  width: 100%;
+  margin: 10px 5px;
+  text-align: center;
+  padding: 0 20% 0 0; 
+  border: 1px solid #eee;
+}
+button{
+    width:100%;
+    border-radius: 10px;
+}

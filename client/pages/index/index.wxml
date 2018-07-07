@@ -1,0 +1,20 @@
+<!--index.wxml-->
+<view class="panel">
+    <view class="chart-with-title" wx:for="{{title}}" wx:for-item="title" bindtap="open" data-chart="{{title}}" wx:key="{{title.id}}">
+        {{title.name}}
+    </view>
+
+    <view class="chart-with-infos" wx:for="{{infos}}" wx:for-item="info" bindtap="open" data-chart="{{info}}" wx:key="{{info.id}}">
+        {{info.name != '时间'?info.name:time}}
+    </view>
+
+    <view class="chart-with-title" wx:for="{{lights}}" wx:for-item="light" bindtap="open" data-chart="{{light}}" wx:key="{{light.id}}">
+        {{light.name}}
+    </view>
+
+
+  <view class="chart-with-img" wx:for="{{charts}}" wx:for-item="chart" bindtap="open" data-chart="{{chart}}" wx:key="{{chart.id}}">
+    {{chart.name}}
+  </view>
+  
+</view>

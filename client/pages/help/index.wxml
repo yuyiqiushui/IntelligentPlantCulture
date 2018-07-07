@@ -1,0 +1,4 @@
+<view class="container">
+    <image src='../../images/ltdhelp.bmp'></image>
+    <icon class="home iconfont icon-anniu-copy" bindtap='bindhome'></icon>
+</view>

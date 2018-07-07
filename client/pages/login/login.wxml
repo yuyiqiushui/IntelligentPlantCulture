@@ -1,0 +1,11 @@
+<view class='container'>
+    <view class='section-form'>
+        <form bindsubmit='submit' >
+            <input data-inputId="{{inputId}}" bindinput='inputIdTap'></input>
+            <button form-type='submit' bindtap='submitClick'>{{submit}}</button>
+        </form>
+    </view>
+
+
+    
+</view>
