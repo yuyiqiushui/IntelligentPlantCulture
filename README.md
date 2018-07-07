@@ -1,2 +1,0 @@
-# IntelligentPlantCulture
-植物
